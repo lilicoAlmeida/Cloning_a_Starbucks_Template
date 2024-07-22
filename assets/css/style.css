@@ -1,0 +1,377 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+
+/* Basic body styling */
+body {
+    font-family: 'Open Sans', sans-serif; /* Applying font family */
+    margin: 0; /* Removing default margin */
+}
+
+/* Container for centering content */
+.container {
+    max-width: 1140px; /* Maximum width of the container */
+    margin: auto; /* Centering the container */
+    padding: 0 20px; /* Padding on the sides */
+}
+
+/* Style for the top bar */
+.bar {
+    background-color: #117050; /* Background color */
+    width: 168px; /* Fixed width */
+    height: 22px; /* Fixed height */
+}
+
+/* Main heading styling */
+h1 {
+    font-family: 'Oswald', sans-serif; /* Applying specific font */
+    font-size: 96px; /* Font size */
+    font-weight: bold; /* Font weight */
+    line-height: 96px; /* Line height */
+    margin: 0 0 30px; /* Bottom margin */
+}
+
+/* Subheading styling */
+h2 {
+    font-family: 'Oswald', sans-serif; /* Applying specific font */
+    font-weight: bold; /* Font weight */
+    font-size: 35px; /* Font size */
+    line-height: 45px; /* Line height */
+    margin: 20px 0; /* Margin above and below */
+}
+
+/* Button styling */
+.button {
+    display: inline-block; /* Inline-block display */
+    border: 2px solid #454545; /* Border styling */
+    border-radius: 3px; /* Rounded corners */
+    padding: 10px 30px; /* Padding */
+    color: #454545; /* Text color */
+    text-decoration: none; /* Removing underline */
+}
+
+/* Button hover effect */
+.button:hover {
+    color: #fff; /* Text color on hover */
+    background-color: #454545; /* Background color on hover */
+}
+
+/* Link hover and visited styling */
+a:hover {
+    color: #117050; /* Color on hover */
+}
+
+a:visited {
+    color: #117050; /* Color for visited links */
+}
+
+/* Header line styling */
+header .line {
+    background-color: #117050; /* Background color */
+    height: 10px; /* Height */
+}
+
+/* Header area styling */
+.header--area {
+    display: flex; /* Flexbox layout */
+    justify-content: space-between; /* Spacing between items */
+    height: 100px; /* Height */
+    align-items: center; /* Center items vertically */
+}
+
+/* Styling for the header image on the left */
+.header--left img {
+    width: 64px; /* Width */
+    height: 64px; /* Height */
+}
+
+/* Styling for the header right section */
+.header--right {
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Center items vertically */
+}
+
+/* Search form styling */
+.header--search form {
+    display: flex; /* Flexbox layout */
+}
+
+/* Search input styling */
+.header--search input {
+    font-size: 16px; /* Font size */
+    padding: 8px 15px; /* Padding */
+    border: 1px solid #999999; /* Border styling */
+    outline: 0; /* Removing default outline */
+    width: 100%; /* Full width */
+    max-width: 250px; /* Maximum width */
+}
+
+/* Search button styling */
+.header--search button {
+    border: 0; /* Removing border */
+    background: transparent; /* Transparent background */
+    margin-left: -30px; /* Negative margin to align with input */
+    cursor: pointer; /* Pointer cursor */
+}
+
+/* Search button image styling */
+.header--search button img {
+    width: 16px; /* Width */
+    height: 16px; /* Height */
+}
+
+/* Menu icon styling */
+.header--menu {
+    margin-left: 50px; /* Margin to the left */
+}
+
+.header--menu img {
+    width: 24px; /* Width */
+    height: 24px; /* Height */
+    cursor: pointer; /* Pointer cursor */
+}
+
+/* Banner styling */
+.banner {
+    background-image: url('../images/bg.jpg'); /* Background image */
+    background-position: center; /* Center alignment */
+    background-size: cover; /* Cover the area */
+    padding-top: 90px; /* Top padding */
+    padding-bottom: 90px; /* Bottom padding */
+}
+
+/* Banner images styling */
+.banner--images {
+    margin-top: 60px; /* Top margin */
+}
+
+.banner--images img {
+    width: 148px; /* Width */
+    height: 148px; /* Height */
+    border: 6px solid #117050; /* Border styling */
+    border-radius: 50%; /* Circular border */
+    margin-right: 40px; /* Margin to the right */
+}
+
+/* Area 1 styling */
+.area1 {
+    display: grid; /* Grid layout */
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+}
+
+/* Content area 1 styling */
+.area1--content {
+    padding: 80px; /* Padding */
+}
+
+/* Quote styling in area 1 */
+.area1--quote {
+    margin-bottom: 30px; /* Bottom margin */
+}
+
+/* Text styling in area 1 */
+.area1--text {
+    margin-bottom: 50px; /* Bottom margin */
+    line-height: 25px; /* Line height */
+}
+
+/* Image 1 styling in area 1 */
+.area1--img1 {
+    height: 350px; /* Height */
+    background-image: url('../images/f2.jpg'); /* Background image */
+    background-size: cover; /* Cover the area */
+    background-position: center; /* Center alignment */
+}
+
+/* Image 2 styling in area 1 */
+.area1--img2 {
+    grid-column: 2 / 3; /* Spanning columns */
+    grid-row: 1 / 3; /* Spanning rows */
+    background-image: url('../images/f1.jpg'); /* Background image */
+    background-size: cover; /* Cover the area */
+    background-position: center; /* Center alignment */
+}
+
+/* Area 2 styling */
+.area2 {
+    display: grid; /* Grid layout */
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+}
+
+/* Content area 2 styling */
+.area2--content {
+    padding: 80px; /* Padding */
+}
+
+/* Text styling in area 2 */
+.area2--text {
+    margin-bottom: 50px; /* Bottom margin */
+    line-height: 25px; /* Line height */
+}
+
+/* Image 1 styling in area 2 */
+.area2--img1 {
+    height: 450px; /* Height */
+    background-image: url('../images/f4.jpg'); /* Background image */
+    background-size: cover; /* Cover the area */
+    background-position: center; /* Center alignment */
+}
+
+/* Image 2 styling in area 2 */
+.area2--img2 {
+    grid-column: 1 / 2; /* Spanning columns */
+    grid-row: 1 / 3; /* Spanning rows */
+    background-image: url('../images/f3.jpg'); /* Background image */
+    background-size: cover; /* Cover the area */
+    background-position: center; /* Center alignment */
+}
+
+/* Area 3 styling */
+.area3 {
+    display: grid; /* Grid layout */
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+}
+
+/* Content area 3 styling */
+.area3--content {
+    padding: 200px 80px; /* Padding */
+    background-image: url('../images/bg2.jpg'); /* Background image */
+    background-size: cover; /* Cover the area */
+    background-position: left; /* Align to the left */
+}
+
+/* Text styling in area 3 */
+.area3--text {
+    margin-bottom: 50px; /* Bottom margin */
+    line-height: 25px; /* Line height */
+}
+
+/* Image styling in area 3 */
+.area3--img {
+    background-image: url('../images/f5.jpg'); /* Background image */
+    background-size: cover; /* Cover the area */
+    background-position: center; /* Center alignment */
+}
+
+/* Area 4 styling */
+.area4 {
+    display: grid; /* Grid layout */
+    grid-template-columns: 450px 1fr; /* Fixed and flexible columns */
+    background-color: #ebe9ee; /* Background color */
+}
+
+/* Content area 4 styling */
+.area4--content {
+    padding: 150px 80px; /* Padding */
+}
+
+/* Text styling in area 4 */
+.area4--text {
+    margin-bottom: 50px; /* Bottom margin */
+    line-height: 25px; /* Line height */
+}
+
+/* Image styling in area 4 */
+.area4--img {
+    background-image: url('../images/bg3.jpg'); /* Background image */
+    background-position: left; /* Align to the left */
+}
+
+/* Area 5 styling */
+.area5 {
+    background-image: url('../images/bg4.jpg'); /* Background image */
+    background-size: cover; /* Cover the area */
+    background-position: center; /* Center alignment */
+    height: 600px; /* Fixed height */
+}
+
+/* Footer styling */
+footer {
+    background-color: #333; /* Background color */
+    color: #fff; /* Text color */
+    padding: 80px; /* Padding */
+    text-align: center; /* Center text */
+}
+
+/* Media Queries for responsive design */
+
+/* Styles for medium screens */
+@media (min-width: 769px) and (max-width: 1140px) {
+    .container {
+        padding-left: 20px; /* Padding */
+        padding-right: 20px; /* Padding */
+    }
+}
+
+/* Styles for small screens */
+@media (max-width: 768px) {
+    .container {
+        padding-left: 20px; /* Padding */
+        padding-right: 20px; /* Padding */
+    }
+
+    .area1 {
+        grid-template-columns: 3fr 2fr; /* Adjusted columns */
+    }
+
+    .area2 {
+        grid-template-columns: 2fr 3fr; /* Adjusted columns */
+    }
+
+    .area3 {
+        grid-template-columns: 3fr 2fr; /* Adjusted columns */
+    }
+}
+
+/* Styles for extra small screens */
+@media (max-width: 425px) {
+    .container {
+        padding-left: 20px; /* Padding */
+        padding-right: 20px; /* Padding */
+    }
+
+    .header--search input {
+        max-width: 150%; /* Increased max-width */
+    }
+
+    h1 {
+        font-size: 50px; /* Smaller font size */
+        line-height: 148px; /* Adjusted line height */
+    }
+
+    h2 {
+        font-size: 25px; /* Smaller font size */
+        line-height: 30px; /* Adjusted line height */
+    }
+
+    .banner--images img {
+        width: 70px; /* Smaller width */
+        height: 70px; /* Smaller height */
+        border: 3px solid #117050; /* Border styling */
+        border-radius: 50%; /* Circular border */
+        margin-right: 10px; /* Margin to the right */
+    }
+
+    .area1,
+    .area2,
+    .area3,
+    .area4,
+    .area5 {
+        grid-template-columns: 1fr; /* Single column layout */
+    }
+
+    .area1--content,
+    .area2--content,
+    .area3--content,
+    .area4--content {
+        padding: 40px; /* Padding */
+    }
+
+    .area5 {
+        height: 200px; /* Smaller height */
+    }
+
+    footer {
+        font-size: 12px; /* Smaller font size */
+        padding: 40px 20px; /* Padding */
+    }
+}
